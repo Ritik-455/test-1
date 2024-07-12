@@ -1,13 +1,137 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&display=swap');
+
+:root {
+  --fs-sm: 16px;
+  --fs-md: 16px;
+  --fs-lg: 25px;
+  --fs-xl: 19px;
+  --fs-2xl: 33px;
+  /* color */
+  --color-green: #6e9277;
+  --color-lightblack: #001008;
+  --color-grey: #F5F8F6;
+  --color-dark: #0000001A;
+  --color-darkgrey: #4D5853;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.color-darkgrey {
+  color: var(--color-darkgrey);
+}
+
+.font-arch {
+  font-family: "Archivo", sans-serif;
+}
+
+.font-kaush {
+  font-family: "Kaushan Script", cursive;
+}
+
+.bg-grey {
+  background: var(--color-grey);
+}
+
+.text-16 {
+  font-size: var(--fs-sm);
+}
+
+.text-18 {
+  font-size: var(--fs-md);
+}
+
+.text-25 {
+  font-size: var(--fs-lg);
+}
+
+.text-32 {
+  font-size: var(--fs-xl);
+}
+
+.text-48 {
+  font-size: var(--fs-2xl);
+}
+
+.color-green {
+  color: var(--color-green);
+}
+
+.color-light-black {
+  color: var(--color-lightblack);
+}
+
+.lh-46 {
+  line-height: 29.43px;
+}
+
+.lh-62 {
+  line-height: 38.4px;
+}
+
+.lh-32 {
+  line-height: 32.5px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-19 {
+  line-height: 19.58px;
+}
+
+@media (min-width:576px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 16px;
+    --fs-lg: 25px;
+    --fs-xl: 26px;
+    --fs-2xl: 34px;
+  }
+}
+
+@media (min-width:768px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 25px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
+  }
+
+  .lh-46 {
+    line-height: 46.43px;
+  }
+
+  .lh-62 {
+    line-height: 62.4px;
+  }
+}
+
+@media (min-width:992px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 25px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
+  }
+}
+
+@media (min-width:1200px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 25px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
+  }
+}
+
+@media (min-width:1440px) {
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 25px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
+  }
 }
